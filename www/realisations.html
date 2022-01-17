@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <html lag="fr" xml:lan="fr">
+  <meta charset="UTF-8">
+  <meta name="author" content="valentin LANSIGU">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/resetcss.css">
+  <link rel="stylesheet" href="css/nr.css">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap"
+  rel="stylesheet"
+/>
+	<title>Realisations kiwe</title>
+</head>
+<body>
+
+	<div class="notif row">
+		<img src="images/warning.svg" alt="warning">
+		<p>Toutes les réalisations sont à faire sur un ordinateur.</p>
+		<img src="images/croixW.svg" alt="croix" onclick="mafonction()">
+	</div>
+	<div class="decors">
+	
+	<!--Nav Bar-->
+		<div class="nav">
+			<a class="logo" href="index.html"
+				><img class="logo" src="images/Kiwe.png" alt="Logo Kiwe"
+			/></a>
+			<div class="links">
+				<a href="realisations.html#cont4">Nos réalisations</a>
+				<a href="ensavoirplus.html">En savoir plus</a>
+				<a href="index.html#contact">Contact</a>
+			</div>
+			<a class="hamburger" onclick="AfficherMasquer()">
+				<img src="images/hamburger.svg" alt="hamburger" id="hamburger" />
+			</a>
+		</div>
+
+		<!--Menu mobile -->
+
+		<div class="menu">
+			<a class="croix" onclick="AfficherMasquer()">
+				<img src="images/croix.svg" alt="croix" />
+			</a>
+			<div class="flex_menu">
+				<div class="liens">
+					<a href="index.html#">Accueil</a>
+					<a href="realisations.html#cont4">Nos réalisations</a>
+					<a href="index.html#equipe">Notre équipe</a>
+					<a href="index.html#contact">Contact</a>
+				</div>
+				<div class="social">
+					<a href="https://www.instagram.com/kiweagence/?hl=fr" target="_blank"
+						><span
+							class="iconify"
+							data-icon="akar-icons:instagram-fill"
+							data-inline="false"
+						></span
+					></a>
+					<a href="https://www.facebook.com/kiweagence" target="_blank"
+						><span
+							class="iconify"
+							data-icon="akar-icons:facebook-fill"
+							data-inline="false"
+						></span
+					></a>
+				</div>
+			</div>
+		</div>
+	<div class="realisation">
+		
+            <a href="https://mmi.univ-smb.fr/~noalhytm/unenouvelleterre/" class="content" id="cont1">
+				<img src="images/unenouvelleterre.png">
+				<p class="titre">Spatiosphère</p>
+				<p class="reatext">
+					Bienvenue dans l’espace ! En 2130, voyagez de planète en planète dans la peau d’un astronaute. Votre mission sera de trouver une nouvelle terre habitable, mais cela ne se fera pas sans embûches...
+				</p>
+            </a>
+	
+	
+			<a href="http://atmosphere.univ-smb.fr/space-cleaner/index.html" class="content" id="cont2">
+				<img src="images/space_cleaner.png">
+				<p class="titre">Thermosphère</p>
+				<p class="reatext">
+					Plongé dans le futur à bord d'un tout nouveau vaisseau spatial, votre but est de nettoyer l'atmosphère remplie de déchets pour sauver la seconde station spatiale internationale. Nous vous attendons dans le “Space cleaner”, amiral.
+				</p>
+            </a>
+		
+	
+            <a href="https://mmi.univ-smb.fr/~duhamlau/ecobook/" class="content" id="cont3">
+				<img src="images/EcoBook.png">
+				<p class="titre">Planétosphère</p>
+				<p class="reatext">
+					Une nouvelle loi éco-responsable vient d’être appliquée. Vous vous apprêtez à vivre une expérience interactive qui vous sensibilisera à l’utilisation d’internet et son impact sur l’environnement. Venez tester notre Ecobook et attention à bien lire entre les lignes pour remporter un maximum de points !
+				</p>
+            </a>
+	
+		<a href="https://mmi.univ-smb.fr/~achardle/Cyber%20Simon/www/index.html" class="content" id="cont4">
+				<img src="images/Super_Simon.png">
+				<p class="titre">Humanosphère</p>
+				<p class="reatext">
+					Tu es un jeune scientifique en devenir et nous avons besoin de toi pour percer à jour l’impact des nouvelles technologies sur le cerveau humain ! Pour cela, viens tester ta mémoire et ta vivacité sur le Cyber Simon.
+				</p>
+		</a>
+
+    </div>
+	<footer class="footer">
+
+		<div class="footer_logo">
+			<div>
+				<img class="img" src="images/Kiwe-agency-light.png" alt="Logo Kiwe" />
+				<div class="footer_social">
+					<a href="https://www.facebook.com/kiweagence" target="_blank">
+						<img src="images/facebook.svg" alt="facebook Logo"
+					/></a>
+					<a
+						href="https://www.instagram.com/kiweagence/?hl=fr"
+						target="_blank"
+					>
+						<img src="images/instagram.svg" alt="Instagram Logo"
+					/></a>
+				</div>
+			</div>
+			<img
+				class="img"
+				src="images/logoiut.png"
+				alt="Logo IUT savoie mont blanc"
+			/>
+			<img class="img" id="mmi" src="images/logob.svg" alt="Logo IUT MMI" />
+		</div>
+		<div class="flex_colums">
+			<a href="mentionlegales.html">Mentions légales</a>
+			<p>Copyright © 2021 Kiwe, Tous droits réservés.</p>
+		</div>
+	</footer>
+</body>
+
+<script>
+		// AFFICHER MASQUER
+		const menu = document.querySelector(".menu");
+		function AfficherMasquer() {
+			if (menu.style.display == "none") menu.style.display = "block";
+			else menu.style.display = "none";
+		}
+		const croix = document.querySelector('.notif');
+		function mafonction() {
+			if (croix.style.display == "none") {
+				croix.style.display = "block"
+			} else {
+				croix.style.display = "none";
+				croix.classList.add('.close');
+			}
+		}
+
+		
+		</script>
+</html>

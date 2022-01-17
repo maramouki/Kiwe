@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/resetcss.css" />
+		<link rel="stylesheet" href="css/erreur.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+		<title>Erreur 404</title>
+	</head>
+	<body>
+		<div class="nav">
+			<a class="logo" href="index.html"
+				><img class="logo" src="images/Kiwe-agency-light.png" alt="Logo Kiwe"
+			/></a>
+			<div class="links">
+				<a href="realisations.html#cont4">Nos réalisations</a>
+				<a href="ensavoirplus.html">En savoir plus</a>
+				<a href="index.html#contact">Contact</a>
+			</div>
+			<a class="hamburger" onclick="AfficherMasquer()">
+				<img src="images/hamburger.svg" alt="hamburger" id="hamburger" />
+			</a>
+		</div>
+
+		<div class="main">
+			<h1>Erreur 404</h1>
+			<p>Cette page n'a pas été trouvée !</p>
+			<a href="index.html">Retour à l'accueil</a>
+		</div>
+
+		<div class="menu">
+			<a class="croix" onclick="AfficherMasquer()">
+				<img src="images/croix.svg" alt="croix" />
+			</a>
+			<div class="flex_menu">
+				<div class="liens">
+					<a href="index.html">Accueil</a>
+					<a href="realisations.html#cont4">Nos réalisations</a>
+					<a href="index.html#equipe">Notre équipe</a>
+					<a href="index.html#contact">Contact</a>
+				</div>
+				<div class="social">
+					<a href="https://www.instagram.com/kiweagence/?hl=fr"
+						><span
+							class="iconify"
+							data-icon="akar-icons:instagram-fill"
+							data-inline="false"
+						></span
+					></a>
+					<a href="https://www.facebook.com/kiweagence"
+						><span
+							class="iconify"
+							data-icon="akar-icons:facebook-fill"
+							data-inline="false"
+						></span
+					></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="decor">
+			<img src="images/vague.png" alt="vague" class="vague" />
+			<img src="images/cercle.png" alt="cercle" class="cercle" />
+			<img src="images/ligne.png" alt="ligne" class="ligne" />
+			<img src="images/fusee.png" alt="fusée" class="fusee" />
+			<img src="images/mobile_ligne.png" alt="" class="mobile_ligne" />
+		</div>
+	</body>
+	<script>
+		// AFFICHER MASQUER
+		const menu = document.querySelector(".menu");
+		function AfficherMasquer() {
+			if (menu.style.display == "none") menu.style.display = "block";
+			else menu.style.display = "none";
+		}
+	</script>
+</html>

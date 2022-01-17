@@ -1,0 +1,578 @@
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Avec Kiwe, voyagez de l’infiniment petit à l’infiniment grand. Dans cette aventure, apprenez-en plus sur le cerveau, l’écologie, l’atmosphère et l’espace, et incarnez scientifique débutant, citoyen terrien, amiral garant de l’Humanité et astronaute aventurier.">
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+		/>
+		<link rel="stylesheet" href="css/resetcss.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/png" href="images/Kiwe-icon.png" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+		<title>Kiwe</title>
+	</head>
+	<body>
+		
+		<!--	Loader 		-->
+		<div class="loader" id="loader">
+			<img src="images/Kiwe-icon.svg" alt="">
+			<div class="loaderVideo"></div>
+			<p>Chargement...</p>
+		</div>
+		
+
+		<!--	Nav bar 	-->
+		<div class="nav">
+			<a class="logokiwe" href="index.html"
+				><img class="logokiwe" src="images/Kiwe.png" alt="Logo Kiwe"
+			/></a>
+			<div class="links">
+				<a href="realisations.html#cont4">Nos réalisations</a>
+				<a href="ensavoirplus.html">En savoir plus</a>
+				<a href="index.html#contact">Contact</a>
+			</div>
+			<a class="hamburger" onclick="AfficherMasquer()">
+				<img src="images/hamburger_black.svg" alt="hamburger" id="hamburger" />
+			</a>
+		</div>
+		<!--	Menu 	-->
+		<div class="menu">
+			<a class="croix" onclick="AfficherMasquer()">
+				<img src="images/croix.svg" alt="croix" />
+			</a>
+			<div class="flex_menu">
+				<div class="liens">
+					<a href="#">Accueil</a>
+					<a href="realisations.html#cont4">Nos réalisations</a>
+					<a href="#equipe">Notre équipe</a>
+					<a href="#contact">Contact</a>
+				</div>
+				<div class="social">
+					<a href="https://www.instagram.com/kiweagence/?hl=fr"
+						><span
+							class="iconify"
+							data-icon="akar-icons:instagram-fill"
+							data-inline="false"
+						></span
+					></a>
+					<a href="https://www.facebook.com/kiweagence"
+						><span
+							class="iconify"
+							data-icon="akar-icons:facebook-fill"
+							data-inline="false"
+						></span
+					></a>
+				</div>
+			</div>
+		</div>
+		<!--Première section-->
+
+    	<div class="wrap">
+    		<div class="tot">
+    			<div class="pres">
+    				<h1>Kiwe</h1>
+    					<h2>Agence de communication.</h2>
+    				<h2>La plume de vos idées !</h2>
+    			</div>	
+    			<video id="myVideo" src="images/teaser.mp4"  controls>
+  				Cette vidéo ne peut être affichée sur votre navigateur Internet.<br>
+  				Une version est disponible sur youtube <a href="https://www.youtube.com/watch?v=FtI1e3QIZ_k">Teaser </a> . 
+				</video>
+    			<div class="rs">
+		    		
+		    			<a href="https://www.instagram.com/kiweagence/" target="_blank">
+		    				<img src="images/insta.svg" alt="logo instagram">
+		    			</a>
+		    		
+		    		<div class="fb">
+		    			<a href=https://facebook.com/kiweagence/ target="_blank">
+		    				<img src="images/fb.svg" alt="logo facebook">
+		    			</a>
+		    		</div>
+		    		
+    		 	</div>
+    	    </div>
+   		 </div>
+			
+			<img src="images/rond.svg" alt="une ellipse" class="decor">
+   		 	<div class="scroller">
+				<img src="images/scroll.svg" alt="">
+   		 		<h2>Qui sommes-nous ?</h2>
+			</div>
+   		 	
+   		 <div class="wrapi">
+   		 		<img src="images/kiwefonce.svg" class="fonce" alt="logo de l'agence kiwe" >
+   		 	<p class="descr">Créée durant l’année 2020, l’agence étudiante de communication Kiwe est composée de 15 passionnés. Grâce à nos valeurs telles que l’esprit d’équipe, l’écoute, la communication, et l’organisation, nous sommes toujours motivés pour réaliser des projets. Nos différences, nos compétences et notre savoir vivre sont des atouts majeurs pour notre réussite. Notre talentueuse équipe s'engage à être la plume de vos idées.</p>
+
+   		 </div>
+   		<img src="images/photo.jpg" alt="photo de tout les membres de l'agence" class="agence
+			">
+		
+		<img src="images/pink.svg" alt="une ellipse rose" class="rrond">
+		<img src="images/white.svg" alt="une ellipse" class="prond">
+
+
+
+		<!--Slider Compétence-->
+		<div class="competence">
+			<h2>En quoi sommes-nous compétents ?</h2>
+			<div class="main-carousel">
+				<div class="carousel-cell">
+					<div class="card">
+						<p class="title">Communication</p>
+						<img
+							class="logo"
+							src="https://tse1.mm.bing.net/th?id=OIP.kK1PPwZvL5kKWnb6pdXDEQHaHa&pid=Api"
+							alt=""
+						/>
+						<p class="desc">
+							Faites confiance à l'agence Kiwe pour réaliser/mener votre
+							communication sur tous vos évènements, que ce soit sur les médias,
+							les réseaux, auprès de professionnels ou pour convaincre vos
+							clients !
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-cell">
+					<div class="card">
+						<p class="title">Programmation</p>
+						<img
+							class="logo"
+							src="https://qph.fs.quoracdn.net/main-qimg-011de5342604fe4790a86357beec5ee5"
+							alt=""
+						/>
+						<p class="desc">
+							Nos petits Kiwe sont aussi très habiles dans le domaine de la
+							programmation, ils sont compétents dans les principaux langages de
+							programmation pour le web. Les membres sont prêts à créer votre
+							plus beau site web.
+						</p>
+					</div>
+				</div>
+				<div class="carousel-cell">
+					<div class="card">
+						<p class="title">Graphisme</p>
+						<img
+							class="logo"
+							src="https://vignette.wikia.nocookie.net/logopedia/images/d/d0/Procreate_3.png/revision/latest?cb=20190325115231"
+							alt=""
+						/>
+						<p class="desc">
+							Parce qu’un événement sans visuel n’est rien, soyez sûrs que les
+							talents des graphistes de l’agence Kiwe sauront trouver la courbe,
+							la couleur et les effets qui rendront vos projets vivants et
+							attractifs.
+						</p>
+					</div>
+				</div>
+				<div class="carousel-cell">
+					<div class="card">
+						<p class="title">Audiovisuel</p>
+						<img
+							class="logo"
+							src="https://tse2.mm.bing.net/th?id=OIP.e-fqyosDr7TMdv8JXajZQQHaHa&pid=Api"
+							alt=""
+						/>
+						<p class="desc">
+							L'agence Kiwe est dotée de certains talents qui donneront à vos
+							projets les plus belles images. Que ce soit pour des prises de
+							vues, de son et du montage, les Kiwe seront à l'œuvre et suivront
+							vos projets de A à Z !
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slider Affiche-->
+		<section>
+			<h2>Quels sont nos projets?</h2>
+			<div class="project">
+				<div class="affiche">
+					<div class="carousel">
+						<div class="carousel-cell">
+							<img src="images/AlyssaHenenne_TP1.1_kiwe-1.jpg" alt="Affiche" />
+						</div>
+						<div class="carousel-cell">
+							<img src="images/AlyssaHenenne_TP1.1_kiwe-2.jpg" alt="Affiche" />
+						</div>
+						<div class="carousel-cell">
+							<img src="images/MatheoNoalhyt_TP1.1_Kiwe.jpg" alt="Affiche" />
+						</div>
+						<div class="carousel-cell">
+							<img src="images/HugoPinna_TP1.1_Kiwe.jpg" alt="Affiche" />
+						</div>
+						<div class="carousel-cell">
+							<img src="images/duhamel_TP11_kiwe.jpg" alt="Affiche" />
+						</div>
+						<div class="carousel-cell">
+							<img src="images/CourtoisTony_TP1.1_Kiwe.jpg" alt="Affiche" />
+						</div>
+					</div>
+				</div>
+				<div class="text">
+					<p>
+						Notre premier projet, commandé par Elodie Kredens, était de réaliser
+						4 œuvres interactives sur le thème d’ “@tmosphère”. En partant du
+						constat de l’omniprésence du numérique et la pollution causée par
+						nos objets connectés, nous avons donc décidé de nous approprier
+						cette @tmosphère en dégageant quatre grandes échelles : celles de
+						l’individu, de la planète, de l’atmosphère proche et l’espace.
+					</p>
+					<a class="bouton" href="realisations.html#cont4">Nos oeuvres</a>
+				</div>
+			</div>
+		</section>
+		<!-- Slider Équipe -->
+		<section id="equipe">
+			<h2>Notre équipe</h2>
+			<div class="equipe">
+				<div class="carous">
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Petite en taille mais grande en coeur, Alice est toujours
+									positive (même au covid). Coordinatrice de l’agence, elle
+									ramène la bonne humeur et le sérieux quand il le faut.”
+								</p>
+								<h3>
+									Alice Siguret <br />
+									Graphiste / WebDev / WebDesign
+								</h3>
+							</div>
+							<img class="img_membres" src="images/alice.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Une main de fer dans un gant de velours, Alyssa est aussi
+									exigeante avec elle-même qu’avec les autres et sait tirer le
+									meilleur d’eux-mêmes. C’est aussi la secrétaire et une des
+									graphistes de l’agence.”
+								</p>
+								<h3>
+									Alyssa Henenne <br />
+									Graphiste
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Alyssa.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Animateur de l’agence. À l’aise à l’oral comme à l’écrit pour
+									communiquer ses idées et pensées, Axel est très sociable, n'a
+									pas peur de dire les choses, bonnes comme mauvaises. Il est une
+									épaule sur laquelle s’appuyer en cas de besoin, l’astronomie
+									et le sport sont ses plus grandes passions, il se débrouille
+									en graphisme et en audiovisuel, il aime apprendre de nouvelles
+									choses chaque jour.”
+								</p>
+								<h3>
+									Axel Puthon <br />
+									Graphiste / WebDesign
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Axel.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Difficile à prendre en photo, discrète mais toujours
+									volontaire dans les projets, Clémence aime s’investir dans
+									toutes sortes de projets. Surtout intéressée par
+									l’audiovisuel, mais son but est de toucher à tout, afin de
+									trouver un but à sa vie.”
+								</p>
+								<h3>
+									Clémence Veyret <br />
+									Audiovisuel / WebDesign
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Clemence.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Assez polyvalent dans le domaine de la vidéo, Gabriel
+									Berthaud est motivé et sait se montrer sérieux comme
+									décontracté pour redonner le moral aux troupes.”
+								</p>
+								<h3>
+									Gabriel Berthaud <br />
+									Audiovisuel
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Gabriel.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“90% de charisme pour 1m73. Est polyvalent dans le Graphisme
+									et la Post-production. ”
+								</p>
+								<h3>
+									Hugo Pinna <br />
+									Graphiste / Audiovisuel
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Hugo.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Curieuse, sérieuse et toujours en quête de nouveauté. “Touche
+									à tout” mais surtout au graphisme et à l'audiovisuel.
+									Passionnée par le sport et le dessin. ”
+								</p>
+								<h3>
+									Laura Duhamel <br />
+									Graphiste / Communication
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Laura.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Polyvalent dans de nombreux domaines. Passionné de photos, de
+									vidéos et de Webdesign. Je saurais être à l'écoute et la si on
+									a besoin de moi.”
+								</p>
+								<h3>
+									Léo Achard <br />
+									WebDev / Photographe / WebDesign
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Leo.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Sportive et extravertie, c’est toujours avec le smile (ou
+									presque) que Maëly jongle entre vie étudiante et carrière
+									sportive prometteuse. Intéressée par l’audiovisuel, elle
+									cherche à développer ses connaissances dans les différents
+									domaines. Passionnée par le télémark (un sport oublié), la
+									musique (faut l’entendre chanter sous la douche) et la
+									photographie, Maëly est polyvalente et aime travailler en
+									équipe. ”
+								</p>
+								<h3>
+									Maëly Vernet-Bouquet <br />
+									Communication
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Maely.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Couteau suisse expérimenté en web, intéressé par le graphisme
+									mais aussi par beaucoup de domaines, Mathéo est organisé et
+									impliqué en équipe. Également adepte de sobriété, écologie et
+									philosophie. Il est malheureusement parfois un peu en retard
+									sur ses projets, mais on l'excuse hein ? ”
+								</p>
+								<h3>
+									Mathéo Noalhyt <br />
+									Graphiste
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Matheo.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Motivé, Melih ne parle que pour dire des choses
+									essentielles ou pour détendre l’@tmosphère.
+									Originaire du meilleur des pays : la Turquie. Il aime
+									l’informatique et la programmation.
+									Bac STI2D, a failli passer footballeur professionnel
+									(ligaments croisé), a réalisé un sketch au Jamel
+									Comedy club (dans ses rêves).”
+								</p>
+								<h3>
+									Melih Soy <br />
+									Communication / WebDesign
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Melih.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Théo est polyvalent et a soif
+									d’apprendre. Il reste très discret et rationnel dans
+									toute situation. Il repousse sans cesse ses limites.
+									Bac S SI spé sciences de l’Ingénieur.”
+								</p>
+								<h3>
+									Theo Marinello <br />
+									Audiovisuel
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Theo.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Coordinateur de l’agence, je sais parler aux gens et les
+									écouter. On pourrait croire que mon téléphone est scotché à ma
+									main, mais je suis simplement un adepte des réseaux sociaux.
+									Je sais également m’adapter à toute situation de travail.”
+								</p>
+								<h3>
+									Tony Courtois <br />
+									Communication / WebDesign
+								</h3>
+							</div>
+							<img class="img_membres" src="images/Tony.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Vidéaste passionné au service de l’agence, et professionnel
+									au sein de mon entreprise 717 Production. Photographe amateur.
+									Sérieux, ambitieux et toujours motivé.”
+								</p>
+								<h3>
+									Valentin Dibidabian <br />
+									Audiovisuel / Communication
+								</h3>
+							</div>
+							<img class="img_membres" src="images/ValentinD.png" alt="" />
+						</div>
+					</div>
+					<div class="carousel-cell">
+						<div class="membres">
+							<div class="etext">
+								<p>
+									“Graphiste et codeur de l’agence. Passionné de dessin,
+									intéressé et curieux, j’aime faire de nouvelles choses.
+									Fanatique de la grasse matinée.”
+								</p>
+								<h3>
+									Valentin Lansigu <br />
+									WebDev / Graphisme
+								</h3>
+							</div>
+							<img class="img_membres" src="images/ValentinL.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Contact-->
+		<div class="contact" id="contact">
+			<div class="lieu">
+				<h4>Sur Le Bourget-du-Lac</h4>
+				<p>
+					28 Avenue du lac d’Annecy <br />
+					73370 Le Bourget-du-Lac
+				</p>
+				<a
+					class="bouton"
+					href="https://www.google.com/maps?q=iut+chambery&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjojJDL6PPvAhUHzhoKHQ2VDiQQ_AUoAXoECAEQAw"
+					>Obtenir l’itinéraire</a
+				>
+			</div>
+			<div class="coordonees">
+				<h4>Coordonnées</h4>
+				<div>
+					<p>04 79 75 81 76</p>
+					<img src="images/phone.png" alt="" />
+				</div>
+				<div>
+					<p>scolarite.iut-chy@univ-smb.fr</p>
+					<img src="images//mail.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<!--Footer-->
+		<div  class="footer">
+			<div id="footer" class="footer_logo">
+				<div>
+					<img class="img" src="images/Kiwe-agency-light.png" alt="Logo Kiwe" />
+					<div class="footer_social">
+						<a href="https://www.facebook.com/kiweagence" target="_blank">
+							<img src="images/facebook.svg" alt="facebook Logo"
+						/></a>
+						<a
+							href="https://www.instagram.com/kiweagence/?hl=fr"
+							target="_blank"
+						>
+							<img src="images/instagram.svg" alt="Instagram Logo"
+						/></a>
+					</div>
+				</div>
+				<img
+					class="img"
+					src="images/logoiut.png"
+					alt="Logo IUT savoie mont blanc"
+				/>
+				<img class="img" id="mmi" src="images/logob.svg" alt="Logo IUT MMI" />
+			</div>
+			<div class="flex_colums">
+				<a href="mentionlegales.html">Mentions légales</a>
+				<p>Copyright © 2021 Kiwe, Tous droits réservés.</p>
+			</div>
+		</div>
+	</body>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		// AFFICHER MASQUER
+		const menu = document.querySelector(".menu");
+		function AfficherMasquer() {
+			if (menu.style.display == "none") menu.style.display = "block";
+			else menu.style.display = "none";
+		}
+
+		
+	</script>
+</html>
