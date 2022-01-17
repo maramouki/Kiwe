@@ -1,0 +1,683 @@
+* {
+	font-family: Inter;
+}
+html {
+	background: linear-gradient(
+		180deg,
+		#e9fbff 13.45%,
+		rgba(255, 163, 240, 0.8) 82.88%
+	);
+	scroll-behavior: smooth;
+
+	font-family: Inter;
+}
+h2 {
+	text-align: center;
+	font-family: cocogoose;
+	margin-bottom: 124px;
+	margin-top: 150px;
+	font-size: 24px;
+}
+h4 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	padding-top: 148px;
+	margin-bottom: 85px;
+	/* identical to box height */
+
+	/* VERT MINUIT */
+
+	color: #003b49;
+}
+p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+/*Nav Bar*/
+.nav {
+	display: flex;
+	padding-right: 180px;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 19px;
+	margin-left: 21px;
+}
+.links a {
+	margin-left: 76px;
+	font-family: inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.logokiwe {
+	width: 270px;
+	height: 105px;
+}
+.hamburger {
+	display: none;
+}
+.nav a {
+	color: #003b49;
+	text-decoration: none;
+	font-family: inter;
+}
+
+.nav p {
+	color: #003b49;
+	font-family: inter;
+	margin-bottom: 21.78px;
+	text-align: center;
+}
+/* hamburger Menu */
+.menu {
+	display: none;
+	width: 45%;
+	height: 100%;
+	background: radial-gradient(
+		111.39% 111.39% at 86.13% 4.13%,
+		#ffa3f0 8.85%,
+		#9f5dee 100%
+	);
+	z-index: 2;
+
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+.social {
+	display: flex;
+	align-items: center;
+	max-width: 172px;
+	justify-content: space-around;
+	margin-bottom: 22px;
+}
+.croix {
+	margin-right: 26px;
+	margin-top: 21px;
+	right: 0;
+	position: absolute;
+}
+
+.liens {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 39px;
+	margin-top: 100px;
+}
+.liens a {
+	text-decoration: none;
+}
+.flex_menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+@media (max-width: 1000px) {
+	.nav {
+		padding-right: 0;
+	}
+	.flex_menu a {
+		color: #e9fbff;
+	}
+	.hamburger {
+		display: block;
+		margin-top: 16px;
+		margin-right: 25px;
+	}
+	.links {
+		display: none;
+	}
+	.footer_logo {
+		flex-direction: column;
+		width: 0;
+		padding-top: 0;
+	}
+	.footer_logo .img {
+		margin-top: 36px;
+	}
+	.footer_social {
+		justify-content: center;
+	}
+}
+
+.title {
+	font-size: 24px;
+	margin-bottom: 35px;
+	color: #e9fbff;
+	padding-top: 53px;
+}
+.logo {
+	border-radius: 50%;
+	width: 143px;
+	height: 143px;
+	margin-bottom: 68px;
+}
+.desc {
+	color: #e9fbff;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: 97px;
+}
+.card {
+	display: flex;
+	width: 440px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #00a9ce;
+	border-radius: 34px;
+}
+.competence .carousel-cell {
+	margin-right: 207px;
+}
+
+.competence .flickity-button {
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #9f5dee;
+	color: #e9fbff;
+}
+.competence .flickity-page-dots .dot.is-selected {
+	background: #e9fbff;
+	border: 2px solid #e9fbff;
+}
+.competence .flickity-page-dots .dot {
+	width: 12px;
+	height: 12px;
+	opacity: 1;
+	background: transparent;
+	border: 2px solid #003b49;
+}
+
+.project {
+	margin-bottom: 2em;
+	width: 100%;
+	display: flex;
+	flex-direction: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.project .carousel-cell {
+	max-width: 100%; /* half-width */
+	margin-right: 100%;
+}
+
+.project img {
+	max-width: 488px;
+
+	height: auto;
+}
+.affiche {
+	width: 50%;
+	height: auto;
+}
+.text {
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.text p {
+	font-size: 18px;
+	line-height: 46px;
+	text-align: center;
+	max-width: 384px;
+
+	/* VERT MINUIT */
+
+	color: #003b49;
+}
+.bouton {
+	margin-top: 62px;
+	color: #e9fbff;
+	text-decoration: none;
+	padding: 17px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background-color: #00a9ce;
+	border-radius: 8px;
+}
+
+.equipe {
+	width: 100%;
+	background: linear-gradient(
+		277.25deg,
+		#9f5dee -37.84%,
+		rgba(233, 251, 255, 0.8) 99.73%
+	);
+}
+.equipe .carousel-cell {
+	width: 100%;
+}
+.etext {
+	max-width: 559px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-around;
+}
+.etext p {
+	font-family: Inter;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.etext h3 {
+	margin-top: 48px;
+	font-weight: 600;
+}
+.membres {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.img_membres {
+	width: 460px;
+}
+
+/*Footer*/
+.footer {
+	background: #003b49;
+}
+.footer p {
+	text-align: center;
+}
+.footer_logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 141px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1044px;
+}
+.footer_logo img {
+	max-height: 95px;
+}
+.footer_logo #mmi {
+	color: #e9fbff;
+}
+.footer_social {
+	display: flex;
+	justify-content: flex-end;
+}
+.footer_social img {
+	margin-left: 40px;
+}
+.flex_colums {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.flex_colums p {
+	color: #e9fbff;
+	margin-bottom: 24px;
+}
+
+.flex_colums a {
+	color: #e9fbff;
+	margin-bottom: 24px;
+	margin-top: 58px;
+	text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+	.project {
+		flex-direction: column;
+	}
+	.project .text {
+		margin-top: 35px;
+	}
+	.project img {
+		max-width: 221px;
+	}
+	.equipe {
+		margin-bottom: 2em;
+	}
+	.membres {
+		flex-direction: column-reverse;
+	}
+	.etext {
+		margin-right: 0;
+	}
+
+	.membres img {
+		width: 250px;
+	}
+	.text p {
+		line-height: 26px;
+		margin-top: 35px;
+	}
+	.footer_logo {
+		flex-direction: column;
+		width: 0;
+		padding-top: 0;
+	}
+	.footer_logo .img {
+		margin-top: 36px;
+	}
+	.footer_social {
+		justify-content: center;
+	}
+}
+
+/*Contact*/
+
+.contact {
+	display: flex;
+	margin-top: 180px;
+}
+.lieu {
+	width: 50%;
+	background: rgba(255, 163, 240, 0.8);
+	padding-bottom: 146px;
+	padding-left: 5%;
+}
+.coordonees {
+	width: 50%;
+	background: #00a9ce;
+	text-align: right;
+	padding-right: 5%;
+}
+.coordonees h4,
+.coordonees p {
+	color: #e9fbff;
+}
+.coordonees div {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.lieu p {
+	margin-bottom: 61px;
+}
+
+@media (max-width: 600px) {
+	h4 {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 32px;
+		line-height: 22px;
+	}
+	.contact {
+		flex-direction: column;
+	}
+	.lieu {
+		width: 95%;
+	}
+	.coordonees {
+		width: 95%;
+	}
+	.flickity-button {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.card {
+		width: 310.02px;
+	}
+	.competence .flickity-button {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+/*	Scroll	*/
+.scroll {
+	overflow: hidden;
+}
+/*	Loader 	*/
+.fondu-out {
+	opacity: 0;
+	transition: opacity 0.8s ease-out;
+}
+
+.loader {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #9f5dee 1.56%, #00a9ce 249.93%);
+	z-index: 1;
+}
+.loader img {
+	width: 130px;
+	height: auto;
+}
+.loader p {
+	color: #e9fbff;
+}
+.loaderVideo {
+	border: 8px solid #003b49;
+	border-radius: 50%;
+	border-top: 8px solid #e9fbff;
+	width: 50px;
+	height: 50px;
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 2s linear infinite;
+	margin: 2em 0;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+/* Alice 1 section */
+.tot {
+	margin-top: 206px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: "Cocogoose";
+}
+.tot video {
+	width: 640px;
+	height: auto;
+	z-index: 0;
+}
+.pres h1 {
+	font-family: COCOGOOSE;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 144px;
+	line-height: 144px;
+	/* identical to box height */
+
+	/* VERT MINUIT */
+
+	color: #003b49;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pres h2 {
+	margin: 0;
+	font-family: Cocogoose;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+
+	/* VERT MINUIT */
+
+	color: #003b49;
+}
+.rs {
+	padding-left: 19px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center, space-between;
+	align-items: center;
+}
+
+.fb {
+	margin-top: 100%;
+}
+
+.wrapi {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 184px;
+	margin-right: 185px;
+	margin-top: 67px;
+	align-items: center;
+}
+
+.descr {
+	width: 519px;
+	height: 290px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+
+	/* VERT MINUIT */
+
+	color: #003b49;
+}
+
+.scroller {
+	margin-top: 147px;
+	text-align: center;
+
+	font-family: Cocogoose;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 34px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.fonce {
+	width: 479.49px;
+	height: 185.47px;
+	border-radius: 36px;
+}
+
+.decor {
+	position: absolute;
+	width: 473px;
+	height: 473px;
+	left: -104px;
+	top: 632px;
+	z-index: -1;
+}
+
+.agence {
+	text-align: center;
+	width: 900px;
+	height: auto;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 62px;
+
+	z-index: 1;
+}
+
+.rrond {
+	position: absolute;
+	width: 560px;
+	height: 560px;
+	right: 0px;
+	top: 1403.02px;
+	z-index: -1;
+}
+
+.prond {
+	position: absolute;
+	width: 276px;
+	height: 276px;
+	top: 1896px;
+	z-index: -1;
+}
+@media (max-width: 1000px) {
+	.tot {
+		flex-direction: column;
+		margin-top: 56px;
+	}
+	.wrapi {
+		flex-direction: column;
+		margin: 0;
+		padding: 0 30px;
+	}
+	.rs {
+		display: none;
+	}
+	.agence {
+		width: 80%;
+	}
+	.tot video {
+		width: 80%;
+	}
+}
+
+@media (max-width: 600px) {
+	.pres h1 {
+		font-family: Cocogoose;
+		font-size: 90px;
+		text-align: center;
+
+		/* VERT MINUIT */
+
+		color: #003b49;
+	}
+
+	.fonce {
+		width: 325px;
+	}
+	.descr {
+		width: auto;
+		height: auto;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+
+		/* VERT MINUIT */
+
+		color: #003b49;
+	}
+}
+@font-face {
+	font-family: "cocogoose";
+	src: url("../Fonts/cocogoose/Cocogoose_trial.otf");
+}

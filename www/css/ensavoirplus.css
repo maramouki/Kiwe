@@ -1,0 +1,265 @@
+html {
+	background: linear-gradient(90deg, #9f5dee 1.56%, #00a9ce 249.93%);
+	scroll-behavior: smooth;
+
+}
+a {
+	color: #e9fbff;
+	text-decoration: none;
+	font-family: inter;
+}
+p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 33px;
+
+	/* Bleu claire */
+
+	color: #e9fbff;
+}
+h1 {
+	font-family: Cocogoose;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 51px;
+	text-align: center;
+	margin-top: 81px;
+	margin-bottom: 76px;
+
+	/* Bleu claire */
+
+	color: #e9fbff;
+}
+
+/* Nav Bar */
+.nav {
+	display: flex;
+	padding-right: 180px;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 19px;
+	margin-left: 21px;
+}
+.links a {
+	margin-left: 76px;
+	font-family: inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.logo {
+	width: 270px;
+	height: 105px;
+}
+
+/* hamburger */
+.hamburger {
+	display: none;
+}
+
+#hamburger {
+	width: 25px;
+	height: 25px;
+}
+@media (max-width: 1000px) {
+	.nav {
+		padding-right: 0;
+	}
+	.hamburger {
+		display: block;
+		margin-top: 16px;
+		margin-right: 25px;
+	}
+	.links {
+		display: none;
+	}
+}
+/* hamburger Menu */
+.menu {
+	display: none;
+	width: 45%;
+	height: 100%;
+	background: radial-gradient(
+		111.39% 111.39% at 86.13% 4.13%,
+		#ffa3f0 8.85%,
+		#9f5dee 100%
+	);
+	z-index: 2;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.social {
+	display: flex;
+	align-items: center;
+	max-width: 172px;
+	justify-content: space-around;
+	margin-bottom: 22px;
+}
+.croix {
+	margin-right: 26px;
+	margin-top: 21px;
+	right: 0;
+	position: absolute;
+}
+
+.liens {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 39px;
+	margin-top: 100px;
+}
+.flex_menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+/*  Main    */
+.text {
+	display: flex;
+	flex-direction: column;
+	padding: 0 216px;
+}
+
+.sous-titre {
+	font-family: Inter;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 15px;
+	/* identical to box height */
+
+	text-decoration-line: underline;
+
+	/* #FFCA28 */
+
+	color: #ffca28;
+}
+.mini-titre {
+	text-decoration-line: underline;
+	margin-bottom: 0;
+}
+
+.vertical {
+	margin: 0 auto;
+	border-left: 1px solid #00a9ce;
+	height: 30px;
+}
+.text-vertical {
+	text-align: center;
+}
+.kiwe-compo {
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 33px;
+}
+
+.kiwe-compo .logo-text {
+	width: 91.65px;
+	height: 30.33px;
+}
+.logotype {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.logotype div {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.kiwe-logo {
+	margin: 0 auto;
+	width: 287.52px;
+	height: auto;
+}
+.logo-text {
+	margin: 0 auto;
+	width: 159.95px;
+	height: 52.92px;
+}
+.icon {
+	margin: 0 auto;
+	width: 46.78px;
+	height: 54.75px;
+}
+/*Footer*/
+.footer {
+	background: #003b49;
+}
+.footer p {
+	text-align: center;
+}
+.footer_logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 141px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1044px;
+}
+.footer_logo img {
+	max-height: 95px;
+}
+.footer_logo #mmi {
+	color: #e9fbff;
+}
+.footer_social {
+	display: flex;
+	justify-content: flex-end;
+}
+.footer_social img {
+	margin-left: 40px;
+}
+.flex_colums {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.flex_colums p {
+	color: #e9fbff;
+	margin-bottom: 24px;
+}
+
+.flex_colums a {
+	color: #e9fbff;
+	margin-bottom: 24px;
+	margin-top: 58px;
+	text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+	.text {
+		padding: 0 76px;
+	}
+	.footer_logo {
+		flex-direction: column;
+		width: 0;
+		padding-top: 0;
+	}
+	.footer_logo .img {
+		margin-top: 36px;
+	}
+	.footer_social {
+		justify-content: center;
+	}
+	.logotype {
+		flex-direction: column;
+	}
+}
+@font-face {
+	font-family: "cocogoose";
+	src: url("../Fonts/cocogoose/Cocogoose_trial.otf");
+}
